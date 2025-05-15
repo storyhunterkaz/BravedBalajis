@@ -1,0 +1,49 @@
+{
+  "name": "bravedbalajis",
+  "version": "1.0.0",
+  "description": "A personalized learning platform inspired by Balaji Srinivasan's Network State philosophy",
+  "main": "backend/server.js",
+  "scripts": {
+    "start:backend": "node backend/server.js",
+    "start:frontend": "react-scripts start",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "learning",
+    "ai",
+    "blockchain",
+    "education",
+    "agno"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@agno/mcp": "latest",
+    "axios": "^1.6.0",
+    "concurrently": "^8.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.0"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+} 
